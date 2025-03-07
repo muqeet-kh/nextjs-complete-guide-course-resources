@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/components/nav-link.js"],"sourcesContent":["'use client';\n\nimport Link from 'next/link';\nimport { usePathname } from 'next/navigation';\n\nexport default function NavLink({ href, children }) {\n  const path = usePathname();\n\n  return (\n    <Link\n      href={href}\n      className={path.startsWith(href) ? 'active' : undefined}\n    >\n      {children}\n    </Link>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;AAAA;;;AAKe,SAAS,QAAQ,EAAE,IAAI,EAAE,QAAQ,EAAE;;IAChD,MAAM,OAAO;IAEb,qBACE;QACE,MAAM;QACN,WAAW,KAAK,UAAU,CAAC,QAAQ,WAAW;kBAE7C;;;;;;AAGP;GAXwB;;;;;KAAA"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

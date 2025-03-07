@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/archive/@archive/[[...filter]]/error.js"],"sourcesContent":["'use client';\n\nexport default function FilterError({ error }) {\n  return (\n    <div id=\"error\">\n      <h2>An error occurred!</h2>\n      <p>{error.message}</p>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS,YAAY,EAAE,KAAK,EAAE;IAC3C,qBACE,wLAAC;QAAI,IAAG;;0BACN,wLAAC;0BAAG;;;;;;0BACJ,wLAAC;0BAAG,MAAM,OAAO;;;;;;;;;;;;AAGvB;KAPwB"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

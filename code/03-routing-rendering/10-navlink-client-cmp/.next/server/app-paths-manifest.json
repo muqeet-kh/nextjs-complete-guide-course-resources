@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/icon.jpg/route": "app/icon.jpg/route.js",
+  "/news/page": "app/news/page.js",
+  "/archive/@archive/[[...filter]]/page": "app/archive/@archive/[[...filter]]/page.js",
+  "/news/[slug]/page": "app/news/[slug]/page.js",
+  "/news/[slug]/image/page": "app/news/[slug]/image/page.js",
+  "/news/[slug]/(.)image/page": "app/news/[slug]/(.)image/page.js"
+}

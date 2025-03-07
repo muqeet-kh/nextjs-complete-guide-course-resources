@@ -1,0 +1,6 @@
+const CHUNK_PUBLIC_PATH = "server/app/archive/@archive/[year]/page.js";
+const runtime = require("../../../../chunks/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/node_modules_next_4d9baa._.js");
+runtime.loadChunk("server/chunks/_9cd6da._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/archive/@archive/[year]/page/actions.js (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js/(COMPONENT_0)/[project]/app/layout.js [app-rsc] (ecmascript, Next.js server component)/(COMPONENT_1)/[project]/app/not-found.js [app-rsc] (ecmascript, Next.js server component)/(COMPONENT_2)/[project]/app/archive/layout.js [app-rsc] (ecmascript, Next.js server component)/(COMPONENT_3)/[project]/app/archive/@archive/[year]/page.js [app-rsc] (ecmascript, Next.js server component)/(COMPONENT_4)/[project]/app/archive/@latest/default.js [app-rsc] (ecmascript, Next.js server component)/(COMPONENT_5)/[project]/node_modules/next/dist/client/components/parallel-route-default.js [app-rsc] (ecmascript, Next.js server component)/(METADATA_6)/[project]/app/icon.jpg.mjs/(IMAGE)/[project]/app/icon.jpg [app-rsc] (static) (structured image object, ecmascript) (ecmascript) {facade}", CHUNK_PUBLIC_PATH).exports;
