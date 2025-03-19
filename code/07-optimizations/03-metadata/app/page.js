@@ -3,10 +3,20 @@ import { Suspense } from 'react';
 import Posts from '@/components/posts';
 import { getPosts } from '@/lib/posts';
 
-export const metadata = {
-  title: 'Latest Posts',
-  description: 'Browse our latest posts!'
-};
+// export const metadata = {
+//   title: 'Latest Posts',
+//   description: 'Browse our latest posts!'
+// };
+
+
+export async function generateMetadata(config) {
+  const posts = await getPosts();
+  const numOfPosts = posts.length;
+  return {
+    title: 'Latest Posts',
+    description: `Browse our latest ${numOfPosts} posts!`
+  };
+}
 
 async function LatestPosts() {
   const latestPosts = await getPosts(2);
